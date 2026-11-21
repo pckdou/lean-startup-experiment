@@ -1,0 +1,4 @@
+{"ts": 1795282300.7043667, "user_id": "21393e01-2132-485c-a362-9981cc8a47e0", "variant": "A", "event": "visit"}
+{"ts": 1795282302.6079893, "user_id": "21393e01-2132-485c-a362-9981cc8a47e0", "variant": "A", "event": "signup_started"}
+{"ts": 1795282306.201394, "user_id": "21393e01-2132-485c-a362-9981cc8a47e0", "variant": "A", "event": "signup_completed"}
+{"ts": 1795282307.6374316, "user_id": "21393e01-2132-485c-a362-9981cc8a47e0", "variant": "A", "event": "feature_used"}
