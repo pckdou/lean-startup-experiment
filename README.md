@@ -62,19 +62,13 @@ AI 학습 플래너의 **온보딩 단축 가설**을 Feature Flag 기반 A/B �
 
 > **데이터 출처 주의**: 결과는 (실제 사용자 N명 기준 / 시뮬레이션 N명 포함)입니다. `sim_` 접두사의 user_id는 시뮬레이션 데이터입니다.
 
-## 6. Pivot / Persevere 결정
-
-(결정 요약 2~3줄: 결정 내용, 근거, 다음 실험)
-
-전체 기록: [docs/decisions/pivot-or-persevere.md](docs/decisions/pivot-or-persevere.md)
-
-## 7. 한계
+## 6. 한계
 
 - 표본 크기가 작아 통계적 신뢰도에 한계가 있음
 - 참여자가 지인 중심이라 실제 고객군과 편향이 있을 수 있음
 - LLM 페르소나 피드백은 실제 사용자 반응을 대체하지 못함
 
-## 8. 저장소 구조
+## 7. 저장소 구조
 
 ```
 ├── app/                  # Flask MVP + Feature Flag
@@ -88,7 +82,7 @@ AI 학습 플래너의 **온보딩 단축 가설**을 Feature Flag 기반 A/B �
 └── requirements.txt
 ```
 
-## 9. 실행 방법
+## 8. 실행 방법
 
 ```bash
 python -m venv .venv
