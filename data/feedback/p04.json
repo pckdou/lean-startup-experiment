@@ -1,0 +1,20 @@
+{
+  "persona_id": "p04",
+  "usability_score": 2,
+  "would_use_again": false,
+  "pain_points": [
+    "로딩이 1초만 길어져도 짜증남",
+    "입력할 게 많으면 바로 창 닫음",
+    "첫 화면에서 뭐가 좋은지 확 안 와닿음"
+  ],
+  "liked": [
+    "2단계로 줄인 온보딩은 그나마 참을 만함"
+  ],
+  "suggestions": [
+    "원클릭 소셜 로그인 강제 필수",
+    "구구절절 설명 말고 결과 화면부터 띄워줄 것"
+  ],
+  "comment": "솔직히 3초 안에 흥미 안 생기면 바로 뒤로 가기 누름. 플래너 세우는 데 고민하게 만들지 말고 알아서 다 해줘.",
+  "persona_name": "충동적 Z세대",
+  "llm_model": "gemini-3.5-flash-lite"
+}

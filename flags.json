@@ -1,0 +1,3 @@
+{
+  "short_onboarding": { "enabled": true, "rollout_percent": 50 }
+}

@@ -1,0 +1,10 @@
+- {id: p01, name: 바쁜 취준생, traits: 시간 부족, 효율 중시, 불필요한 입력 싫어함, signup_prob_A: 0.35, signup_prob_B: 0.70}
+- {id: p02, name: 꼼꼼한 대학원생, traits: 세부 기능 확인, 개인정보 걱정, signup_prob_A: 0.60, signup_prob_B: 0.55}
+- {id: p03, name: 기술 공포증 50대, traits: 용어 어려워함, 명확한 안내 필요, signup_prob_A: 0.25, signup_prob_B: 0.45}
+- {id: p04, name: 충동적 Z세대, traits: 3초 안에 흥미 없으면 이탈, 디자인 민감, signup_prob_A: 0.30, signup_prob_B: 0.65}
+- {id: p05, name: 가성비 중시 자취생, traits: 가격 민감, 무료 선호, signup_prob_A: 0.40, signup_prob_B: 0.60}
+- {id: p06, name: 접근성 필요 사용자, traits: 스크린리더 사용, 접근성 민감, signup_prob_A: 0.30, signup_prob_B: 0.50}
+- {id: p07, name: 회의적인 개발자, traits: 버그/성능에 비판적, 기술적 피드백, signup_prob_A: 0.45, signup_prob_B: 0.55}
+- {id: p08, name: 육아 중인 직장인, traits: 모바일 위주, 짧은 틈새 시간 사용, signup_prob_A: 0.30, signup_prob_B: 0.65}
+- {id: p09, name: 열정적 얼리어답터, traits: 새 기능 환영, 개선 아이디어 많음, signup_prob_A: 0.75, signup_prob_B: 0.80}
+- {id: p10, name: 무관심한 일반 사용자, traits: 필요성을 못 느낌, 대충 사용, signup_prob_A: 0.10, signup_prob_B: 0.25}

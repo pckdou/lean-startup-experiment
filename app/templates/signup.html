@@ -1,0 +1,15 @@
+<!doctype html><html lang="ko"><meta charset="utf-8">
+<title>가입</title>
+<body style="font-family:sans-serif;max-width:480px;margin:40px auto">
+<h2>가입 ({{ "간단 2단계" if variant == "B" else "기본 5단계" }})</h2>
+<form method="post" action="/signup?uid={{ uid }}">
+  <p><input name="email" placeholder="이메일" required></p>
+  <p><input name="password" type="password" placeholder="비밀번호" required></p>
+  {% if variant == "A" %}
+  <p><input name="name" placeholder="이름" required></p>
+  <p><input name="school" placeholder="학교/소속" required></p>
+  <p><input name="goal" placeholder="학습 목표" required></p>
+  {% endif %}
+  <button type="submit">가입 완료</button>
+</form>
+</body></html>
