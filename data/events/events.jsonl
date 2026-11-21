@@ -2,3 +2,4 @@
 {"ts": 1795282302.6079893, "user_id": "21393e01-2132-485c-a362-9981cc8a47e0", "variant": "A", "event": "signup_started"}
 {"ts": 1795282306.201394, "user_id": "21393e01-2132-485c-a362-9981cc8a47e0", "variant": "A", "event": "signup_completed"}
 {"ts": 1795282307.6374316, "user_id": "21393e01-2132-485c-a362-9981cc8a47e0", "variant": "A", "event": "feature_used"}
+{"ts": 1795282677.060509, "user_id": "3ab85aec-817e-4d0a-94f5-625e8f1d4a1a", "variant": "A", "event": "visit"}
