@@ -39,4 +39,4 @@ def use_feature():
     return "계획이 생성되었습니다! <a href='/dashboard?uid=%s'>돌아가기</a>" % uid
 
 if __name__ == "__main__":
-    app.run(debug=True, port=5000)
+    app.run(debug=False, host="0.0.0.0", port=5000)

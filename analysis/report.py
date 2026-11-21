@@ -5,6 +5,7 @@ users = collections.defaultdict(lambda: {"variant": None, "events": set()})
 if LOG.exists():
     for line in LOG.open(encoding="utf-8"):
         e = json.loads(line)
+        if e["user_id"].startswith("test_"): continue
         u = users[e["user_id"]]; u["variant"] = e["variant"]; u["events"].add(e["event"])
 
 def stats(v):
